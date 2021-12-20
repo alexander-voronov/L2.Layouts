@@ -9,6 +9,7 @@
     android:paddingRight="16dp">
 
     <TableLayout
+        android:id="@+id/tablelayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:stretchColumns="*">
@@ -20,8 +21,8 @@
                 android:gravity="right"
                 android:padding="20dip"
                 android:shrinkColumns="true"
-                android:textSize="40sp"
-                tools:text="20" />
+                android:text="200000000000"
+                android:textSize="40sp" />
         </TableRow>
 
         <TableRow>
